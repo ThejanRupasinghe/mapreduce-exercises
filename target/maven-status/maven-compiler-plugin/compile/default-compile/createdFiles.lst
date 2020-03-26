@@ -1,3 +1,7 @@
+mapreduce\CalAvg.class
+mapreduce\CalAvg$Map.class
 mapreduce\WordCount$Map.class
 mapreduce\WordCount.class
 mapreduce\WordCount$Reduce.class
+mapreduce\CustomAverageTuple.class
+mapreduce\CalAvg$Reduce.class
