@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7fdc891f-e566-4be3-9c0f-026159535489" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapreduce/CalAvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapreduce/CalAvg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mapreduce-exercises-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mapreduce-exercises-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mapreduce-exercises-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mapreduce-exercises-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/desktop.ini" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,22 +178,37 @@
       <option name="project" value="LOCAL" />
       <updated>1585237293622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adds calavg build">
+      <created>1585501057515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585501057515</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adds calavg build">
+      <created>1585501085961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585501085961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds avg counts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds avg counts" />
+    <MESSAGE value="Adds calavg build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds calavg build" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="6" key="CommitChangelistDialog2" timestamp="1585501051544">
+    <state x="244" y="6" key="CommitChangelistDialog2" timestamp="1585501083399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="244" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585501051544" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585501063196">
+    <state x="244" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585501083399" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585501088503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585501063196" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585501088503" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585224090260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
