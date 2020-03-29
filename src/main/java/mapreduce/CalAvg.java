@@ -3,6 +3,7 @@ package mapreduce;
 import java.io.IOException;
 import java.util.*;
 
+import org.apache.commons.configuration.ConfigurationFactory;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.conf.*;
 import org.apache.hadoop.io.*;
@@ -51,7 +52,22 @@ public class CalAvg {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        Configuration conf = new Configuration();
 
+        Job job = new Job(conf, "calavg");
+
+        job.setJarByClass(CalAvg.class);
+
+        job.setMapperClass(Map.class);
+        job.setReducerClass(Reduce.class);
+
+        FileInputFormat.addInputPath(job, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(CustomAverageTuple.class);
+
+        job.waitForCompletion(true);
     }
 }
