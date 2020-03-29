@@ -33,7 +33,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>mapreduce.WordCount</mainClass>
+                            <mainClass>mapreduce.CalAvg</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
